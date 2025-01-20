@@ -4,9 +4,14 @@ function App() {
 
   return (
     <>
+    <div className="flex flex-col justify-between items-center w-full h-sreen">
+
+ 
     <Header/>
     <Outlet/>
+    
     <Footer/>
+    </div>
     </>
   )
 }
