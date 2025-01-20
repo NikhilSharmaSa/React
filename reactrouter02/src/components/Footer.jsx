@@ -3,7 +3,7 @@ import logo from '../assets/react.svg'
 import { Link,NavLink } from 'react-router-dom'
 function Footer() {
     return (
-        <div className='  bg-gray-800 text-orange-400 px-6 min-w-full py-5 shadow-[0_4px_10px_rgba(0,0,0,0.3)] flex md:flex-row flex-col  justify-between w-full items-center'>
+        <div className=' bg-gray-800 text-orange-400 px-6 min-w-full py-5 shadow-[0_4px_10px_rgba(0,0,0,0.3)] flex md:flex-row flex-col  justify-between w-full items-center'>
 <div className='h-full'>
  <img src={logo} alt="" />
 </div>
