@@ -44,10 +44,10 @@ function Github() {
             <div className='flex justify-center items-center flex-col h-full gap-10' style={{ display: isLoading ? 'none' : 'flex' }} onLoad={handleImageLoad}>
                 <h1 className='text-2xl'>Profile Information</h1>
                 <div>
-                <h1><span className='font-semibold'>UserName:</span> {data.login}</h1>
-            <h1><span className='font-semibold'>Followers:</span> {data.followers}</h1>
-            <h1><span className='font-semibold'>Following:</span> {data.following}</h1>
-            <h1><span className='font-semibold'>Total Repos:</span> {data.public_repos}</h1>
+                <h1><span className='font-semibold'>UserName:</span> {data?.login}</h1>
+            <h1><span className='font-semibold'>Followers:</span> {data?.followers}</h1>
+            <h1><span className='font-semibold'>Following:</span> {data?.following}</h1>
+            <h1><span className='font-semibold'>Total Repos:</span> {data?.public_repos}</h1>
 
                 </div>
          
@@ -55,7 +55,7 @@ function Github() {
    
         <div className='flex justify-center items-center' style={{ display: isLoading ? 'none' : 'flex' }}>
 
-        <img src={data.avatar_url} alt=""  className='rounded-full '/>
+        <img src={data?.avatar_url} alt=""  className='rounded-full '/>
         </div>
         </div>
         </>
