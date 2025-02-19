@@ -18,6 +18,7 @@ const darkTheme=()=>{
 useEffect(()=>{
 document.querySelector('html').classList.remove("light","dark");
 document.querySelector("html").classList.add(themeMode)
+console.log(themeMode)
 },[themeMode])
 
   return (
